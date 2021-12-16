@@ -1,11 +1,11 @@
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4000;
 
 //ROUTES
 
 app.get('/consentement_import', (req, res) => {
-    res.send('r');
+    res.send('');
 });
 
 app.get('/data_import', (req, res) => {
