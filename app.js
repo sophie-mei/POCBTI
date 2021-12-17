@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
-//import request from "request";
-//import post from "post";
+//import { SERVICE_KEY, SERVICE_SECRET_KEY, API_BASE_URL } from './config/config.js';
 const request = require("request");
 const post = request.post;
 const PORT = process.env.PORT || 4000;
